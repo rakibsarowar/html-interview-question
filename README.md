@@ -77,4 +77,11 @@ console.log(input.getAttribute('value')); // Hello
 console.log(input.value); // Hello World!
  <hr>
  
+ 🔹 09. What does a DOCTYPE do?
+Answer:
+DOCTYPE is an abbreviation for “document type”. It is a declaration used in HTML to distinguish between standards mode and quirks mode. Its presence tells the browser to render the web page in standards mode.
+
+Moral of the story - just add <!DOCTYPE html> at the start of your page.
+ <hr>
+ 
  
