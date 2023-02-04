@@ -51,7 +51,7 @@ It is possible to get indexed better by placing the following two statements in 
 
 <META NAME="keywords" CONTENT="keyword keyword keyword keyword">
 <META NAME="description" CONTENT="description of your site">
-Both may contain up to 1022 characters. If a keyword is used more than 7 times, the keywords tag will be ignored altogether. Also, you cannot put markup (other than entities) in the description or keywords list.
+Both may contain up to 1022 characters. If a keyword is used more than 7 times, the keywords tag will be ignored altogether. Also, you cannot put markup (other than entities) in the description or keywords list. <hr>
  
  🔹 08. Briefly describe the correct usage of the following HTML5 semantic elements: header, article, section, footer <br>
 Answer:
@@ -61,10 +61,10 @@ Answer:
 
 <section> is a flexible container for holding content that shares a common informational theme or purpose.
 
-<footer> is used to hold information that should appear at the end of a section of content and contain additional information about the section. Author’s name, copyright information, and related links are typical examples of such content.
+<footer> is used to hold information that should appear at the end of a section of content and contain additional information about the section. Author’s name, copyright information, and related links are typical examples of such content. <hr>
  
  
- 🔹 08. What's the difference between an "attribute" and a "property" in HTML? <br>
+ 🔹 09. What's the difference between an "attribute" and a "property" in HTML? <br>
 Answer:
 Attributes are defined on the HTML markup but properties are defined on the DOM. To illustrate the difference, imagine we have this text field in our HTML: <input type="text" value="Hello">.
 
@@ -77,7 +77,7 @@ console.log(input.getAttribute('value')); // Hello
 console.log(input.value); // Hello World!
  <hr>
  
- 🔹 09. What does a DOCTYPE do? <br>
+ 🔹 10. What does a DOCTYPE do? <br>
 Answer:
 DOCTYPE is an abbreviation for “document type”. It is a declaration used in HTML to distinguish between standards mode and quirks mode. Its presence tells the browser to render the web page in standards mode.
 
